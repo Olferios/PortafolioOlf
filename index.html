@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Olferio - Desarrollador fullstack.</title>
+  <meta name="title" content="Olferio- I'm Developer.">
+  <meta name="description" content="This is a personal portfolio with freecode license">
+
+  <!-- 
+    - favicon
+  -->
+
+  <link type="image/png" sizes="16x16" rel="icon" href="./assets/images/letter-o.ico">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  <link rel="preload" as="image" href="./assets/images/Blog.svg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo-dark.png" width="100" height="24" alt="Olf home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo-light.svg"  alt="Olf home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Sobre Mi</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Proyectos</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Contactame</a>
+          </li>
+
+        </ul>
+
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.linkedin.com/in/olfer-efrain-olaya-suarez-29663a169/" class="social-link">
+              <img src="./assets/images/linkedin.png" width="28" height="28" title="Linkedin">
+            </a>
+          </li>
+  
+          <li>
+            <a href="https://github.com/Olferios" class="social-link">
+              <img src="./assets/images/github.png" width="28" height="28" title="github">
+            </a>
+          </li>
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <figure class="hero-banner">
+            <img src="./assets/images/fotoPerfil.jpeg" width="560" height="540" alt="Julia" class="w-100"
+              data-reveal="top">
+
+            <!-- <img src="./assets/images/hero-shape.svg" width="203" height="91" alt="250+ Projects Done" class="shape"
+              data-reveal="top" data-reveal-delay="0.25s"> -->
+          </figure>
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
+              Olfer Olaya Suárez.
+            </h1>
+
+            <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
+              Hola! Soy Olfer, desarrollador fullstack ubicado en Bucaramanga- Colombia. Echa un vistazo acerca de mi.
+            </p>
+
+            <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+              <a href="./assets/documents/Hoja vida 2024.pdf" class="btn btn-primary">Curriculum</a>
+
+              <a href="#contact" class="btn btn-secondary">Contactame</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #services
+      -->
+      <section class="section about" aria-label="about">
+        <div class="container">
+
+          <div class="wrapper">
+            <ul class="grid-list">
+
+            <li data-reveal="bottom">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-1.svg" width="52" height="52" loading="lazy" alt="web design icon">
+                </div>
+
+                <h3 class="h4 card-title">Desarrollo Web</h3>
+
+                <p class="card-text" style="text-align: justify;">
+                  Creación de aplicaciones web dinámicas y funcionales utilizando tecnologías modernas como JavaScript, HTML, CSS y frameworks como boostrap.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.25s">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-2.png" width="52" height="52" loading="lazy" alt="mobile design icon">
+                </div>
+
+                <h3 class="h4 card-title">Gestión de Base de datos</h3>
+
+                <p class="card-text" style="text-align: justify;">
+                  Diseño, administración, optimización, consultas avanzadas y generación de reportes personalizados.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.5s">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-3.svg" width="52" height="52" loading="lazy"
+                    alt="web development icon">
+                </div>
+
+                <h3 class="h4 card-title">Desarrollo backend</h3>
+
+                <p class="card-text" style="text-align: justify;">
+                  Implementación de soluciones robustas con Java, Spring Boot y bases de datos como MySQL o MongoDB, asegurando una arquitectura escalable y segura.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.75s">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-4.svg" width="52" height="52" loading="lazy" alt="web seo icon">
+                </div>
+
+                <h3 class="h4 card-title">Gestión proyectos TI</h3>
+
+                <p class="card-text" style="text-align: justify;">
+                  Planificación, coordinación y control de proyectos para asegurar que se cumplan los plazos y objetivos.
+                </p>
+
+              </div>
+            </li>
+
+            </ul>
+          </div>
+
+        </div>
+      </section>
+      <!-- 
+        - #ABOUT
+      -->
+     <section class="section aboutolf" aria-label="about-me" id="aboutOlf">
+      <div class="container">
+        <div class="tab-containerOlf">
+          <ul class="tab-btn-list">
+            <li class="tab-btn-item">
+              <button class="tab-btn title h6 active"data-tab-btn="aboutOlf"> Sobre mí</button>
+            </li>
+            <li class="tab-btn-item">
+              <button class="tab-btn title h6"data-tab-btn="Skillset">SkillSet</button>
+            </li>
+            <li class="tab-btn-item">
+              <button class="tab-btn title h6"data-tab-btn="Estudios"> Estudios</button>
+            </li>
+                    
+            
+          </ul>
+
+          
+<div class="tab-content active" data-tab-content="aboutOlf">
+  <div class="olfgrid-list">
+
+    
+  <div>
+    
+    <figure class="aboutOlf-banner imagen-holder" style="--width: ; --height: ;" data-tilt>
+      <img src="https://th.bing.com/th/id/OIP.F9ShbHIMjJ2uDX2ZI_MDdAHaFj?rs=1&pid=ImgDetMain" width="570" height="420" loading="lazy" alt="aboutOlf banner"
+        class="imagen-cover">
+    </figure>
+    <h2 class="h4 title section-title">
+      Misión
+    </h2>
+
+    <p class="section-text" style="text-align: justify;">
+      Diseñar cada solución de software con los más altos estándares de calidad, a la vanguardia de la tecnología generando así valor significativo a mis clientes. Estoy comprometido con la mejora continua, la innovación y eficiencia de cada proyecto que emprendo. 
+    </p>
+    <h2 class="h4 title section-title">
+      Visión
+    </h2>
+
+    <p class="section-text" style="text-align: justify;">
+      Ser líder en la gestión de proyectos tecnológicos, reconocido por transformar desafíos complejos en soluciones accesibles y valiosas que mejoren la calidad de vida de las personas. Aspiro a impulsar la evolución tecnológica global, simplificando la interacción con la tecnología y colaborando en la creación de productos innovadores que beneficien a millones de usuarios.
+    </p>
+
+    
+  
+    
+    
+  </div>
+
+    <div class="aboutOlf-content">
+      <h2 class="h4 title section-title">
+        Sobre mí
+      </h2>
+  
+      <p class="section-text" style="text-align: justify;">
+        Soy Olfer Olaya Suárez, Ingeniero industrial con valores centrados en familia, lealtad y fiel creyente en el potencial de las personas. 
+        En el pasado, tuve la oportunidad de dirigir un equipo de desarrollo de software, lo que fortaleció mi capacidad de persuasión y negociación para movilizar al equipo y llegar a acuerdos con los clientes; así como mi habilidad de análisis y pensamiento divergente para encontrar soluciones innovadoras. Además, desarrollé un pensamiento crítico que me permitió realizar y hacer seguimiento a varias tareas simultáneamente, siempre con un enfoque en resultados para cumplir con los proyectos.
+    </p>
+    
+    <p class="section-text" style="text-align: justify;">
+        Este camino me envolvió en el mundo del desarrollo de software, donde descubrí que mis capacidades, conocimientos y experiencias pueden llegar a mejorar los procesos de transformación digital, haciendo el mundo más accesible y eficiente.
+    </p>
+    
+    <p class="section-text" style="text-align: justify;">
+        Es por eso que mi enfoque es seguir creciendo como profesional, desarrollando un perfil integral que complemente mis conocimientos y experiencia en todo el ciclo de desarrollo de software y así me permita continuar construyendo soluciones tecnológicas que generen valor.
+    </p>     
+
+
+    </div>
+
+  </div>
+</div>
+          <div class="tab-content" data-tab-content="Skillset">
+            <div class="olfgrid-list">
+              <div class="skill-content">
+                <h3 class="h4 title section-title">
+                  Lenguajes de programación
+                </h3>
+
+                <div class="social-list">
+
+                  <img src="./assets/images/html.png" width="32" height="32" title="Html">
+                  <img src="./assets/images/javascript.png" width="32" height="32" title="Javascript">
+                  <img src="./assets/images/css.png" width="32" height="32" title="Css">
+                  <img src="./assets/images/java.png" width="32" height="32" title="Java">
+                  <img src="./assets/images/r.png" width="32" height="32" title="R">
+                  <img src="./assets/images/python.png" width="32" height="32" title="Python">
+
+                  
+                  
+
+                </div>
+
+
+              </div>
+              <div class="skill-content">
+                <h3 class="h4 title section-title">
+                  Manejo de Base de datos
+                </h3>
+
+                <div class="social-list">                 
+                  
+                  <img src="./assets/images/mysql.png" width="32" height="32" title="MySQL">
+                  <img src="./assets/images/postgresql.png" width="32" height="32" title="postgresql">                
+
+
+                </div>              
+
+              </div>
+              <div class="skill-content">
+                <h3 class="h4 title section-title">
+                  Frameworks
+                </h3>
+
+                <div class="social-list">              
+                  
+
+                  <img src="./assets/images/springboot.png" width="32" height="32" title=" springboot">
+                  <img src="./assets/images/boostrap.png" width="32" height="32" title="boostrap">
+                  
+
+
+                </div>
+
+                
+
+              </div>
+              <div class="skill-content">
+                <h3 class="h4 title section-title">
+                  Otras herramientas
+                </h3>
+
+                <div class="social-list">                 
+                  
+                  <i class="fa-brands fa-github" title="github"></i>
+
+                  <img src="./assets/images/Jira.png" width="32" height="32" title="Jira">
+                  <img src="./assets/images/PowerBi.png" width="32" height="32" title="PowerBi">
+                  <img src="./assets/images/office.png" width="32" height="32" title="Paquete office">
+                  <img src="./assets/images/postman.png" width="32" height="32" title="Postman">
+
+                  
+
+
+                </div>
+
+                
+
+              </div>
+
+            </div>
+
+          </div>
+          <div class="tab-content" data-tab-content="Estudios">
+            <h3 class="h4 title section-title">Estudios y certificados</h3>
+            <ul class="olfgrid-list">
+              <li>
+                <div class="estudios-card">
+                  <figure class="card-banner img-holder" style="--width: 534; --height: 383;" data-tilt>
+                    <img src="./assets/images/diploma.jpeg" width="534" height="383" loading="lazy" alt="certificate"
+                      class="imagen-cover">
+                  </figure>
+                </div>
+              </li>
+              <li>
+                <div class="estudios-card">
+                  <figure class="card-banner img-holder" style="--width: 534; --height: 383;" data-tilt>
+                    <img src="./assets/images/certificadoJS.png" width="534" height="383" loading="lazy" alt="certificate"
+                      class="imagen-cover">
+                  </figure>
+                </div>
+              </li>
+              
+              <li>
+                <div class="estudios-card">
+                  <figure class="card-banner img-holder" style="--width: 534; --height: 383;" data-tilt>
+                    <img src="./assets/images/CERTIFICADO SCRUM-1.png" width="534" height="383" loading="lazy" alt="certificate"
+                      class="imagen-cover">
+                  </figure>
+                </div>
+              </li>
+
+            </ul>
+
+
+          </div>
+        </div>
+      </div>
+     </section>
+      
+      
+      
+
+
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" aria-labelledby="project-label">
+        <div class="container">
+
+          <div class="title-wrapper" data-reveal="top">
+
+            <div>
+              <h2 class="h2 section-title" id="project-label">Últimos Proyectos</h2>
+
+              <p class="section-text">
+                Echale un vistazo a mis proyectos.
+              </p>
+            </div>
+
+            <a href="https://github.com/Olferios?tab=repositories" class="btn btn-secondary">Mira todos mis proyectos</a>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card project-card-1" style="background-color: #f8f5fb">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="card-tag" style="color: #a07cc5">App web</p>
+
+                  <h3 class="h3 card-title">Agencia de vuelos</h3>
+
+                  <p class="card-text">
+                    Aplicación web de un sistema de gestión de aeropuertos, llevando a cabo la creación, modificación, eliminación y asignación
+                    de vuelos, horarios, aviones; asi como la gestión de clientes, reservas, empleados y revisiones.
+                  </p>
+
+                  <a href="https://github.com/Olferios/AgenciaVuelo-mainJSN" class="btn-text" style="color: #a07cc5">
+                    <span class="span">Ir al Proyecto</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project-11.jpeg" width="650" height="370" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+            <li>
+              <div class="project-card project-card-2" style="background-color: #f8f5fb">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="card-tag" style="color: #a07cc5">App web</p>
+
+                  <h3 class="h3 card-title">Sistema de gestión</h3>
+
+                  <p class="card-text" t>
+                    Sistema de gestión que permite registrar, consultar, y manipular información
+                    relevante sobre personas, habilidades y otros datos.
+                  </p>
+
+                  <a href="https://github.com/Olferios/filtroJAVA" class="btn-text" style="color: #a07cc5">
+                    <span class="span">Ir al Proyecto</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project-2.png" width="650" height="370" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+            
+            <li>
+              <div class="project-card project-card-3" style="background-color: #f5faf7">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #7cb798">Aplicación web</p>
+
+                  <h3 class="h3 card-title">Liga Betplay</h3>
+
+                  <p class="card-text">
+                    Sistema de gestión por terminal que permite administrar todos los aspectos a una liga de fútbol
+                    , desde la gestión de equipos, jugadores hasta la programación de partidos e interaccion con los aficionados.
+                  </p>
+
+                  <a href="Olferios/HardSoccer" class="btn-text" style="color: #7cb798">
+                    <span class="span">Ver proyecto</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/Liga Betplay.png" width="200" height="367" loading="lazy" alt="Web Design"
+                    class="w-betplay">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-4" style="background-color: #fcf4f6">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #d16b86">Página Web</p>
+
+                  <h3 class="h3 card-title">Sistema matricula universidades </h3>
+
+                  <p class="card-text">
+                    Página web que permite registrar estudiantes permitiendo agregar materias segun corresponda
+                  </p>
+
+                  <a href="https://github.com/Olferios/SistemaMatricula.github.io" class="btn-text" style="color: #d16b86">
+                    <span class="span">Ver proyecto </span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure  align="center" class="card-banner" >
+                  <img src="./assets/images/universidadProyecto.png" width="620" height="370" loading="lazy" alt="Mobile Design"
+                    class="w-104">
+                </figure>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" aria-label="contact" id="contact">
+        <div class="container">
+
+          <div class="contact-card">
+
+            <div class="contact-content" data-reveal="left">
+
+              <div class="card-icon">
+                <img src="./assets/images/icon-5.svg" width="44" height="44" loading="lazy" alt="envelop icon">
+              </div>
+
+              <h2 class="h2 section-title">Trabajemos juntos!</h2>
+
+              <p class="section-text">
+                Brindo soluciones rápidas para hacer la vida de mis clientes más facil. ¿Tienes alguna pregunta?
+                Llena el formulario de contactame para ponernos en contacto lo más pronto posible.
+                
+              </p>
+
+            </div>
+
+            <form action="https://formsubmit.co/olfer.olaya@hotmail.com" method="POST" class="contact-form" data-reveal="right">
+
+              <div class="input-wrapper">
+
+                <input type="text" name="name" placeholder="Nombre *" required class="input-field">
+
+                <input type="email" name="email_address" placeholder="Email *" required class="input-field">
+              </div>
+
+              <textarea name="message" placeholder="Mensaje *" required class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">Enviar mensaje</button>
+
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://www.linkedin.com/in/olfer-efrain-olaya-suarez-29663a169/" class="social-link">
+            <img src="./assets/images/linkedin.png" width="23" height="23" title="Html">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/Olferios/" class="social-link">
+            <img src="./assets/images/github.png" width="23" height="23" title="Html">
+          </a>
+        </li>
+
+        
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="https://kit.fontawesome.com/daa09840a2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
